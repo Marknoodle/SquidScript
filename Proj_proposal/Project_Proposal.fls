@@ -1,0 +1,51 @@
+PWD c:\Users\Patrick\documents\Squidscript
+INPUT C:\Users\Patrick\AppData\Local\MiKTeX\2.9\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.tex
+OUTPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.log
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\roboto\roboto.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\roboto\roboto.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifxetex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\iftex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\iftex\ifluatex.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval.tex
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontaxes\fontaxes.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fontaxes\fontaxes.sty
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-pdfmode.def
+INPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.aux
+INPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.aux
+OUTPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.aux
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\jknappen\ec\tcrm1200.tfm
+OUTPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.pdf
+INPUT C:\Users\Patrick\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT c:\Users\Patrick\documents\Squidscript\Project_Proposal.aux
+INPUT C:\Users\Patrick\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Patrick\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
+INPUT C:\Users\Patrick\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\amsfonts\cm\cmr12.pfb
