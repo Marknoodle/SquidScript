@@ -42,9 +42,24 @@ const LET: String= "LET";
 const TRUE: String "TRUE";
 const FALSE: String = "FALSE";
 const RETURN: String = "RETURN";
+const RETURNS: String = "RETURNS";
+const KEY: String = "KEY";
+const LOCK: String = "LOCK";
 
 //Now we define the a structure for the tokens themselves
 struct Token 
 {
-    
+    Type : TokenType,
+    Literal : String,
 }
+
+let mut keywords = HashMap::new();
+
+keywords.insert(String::from("fn"), FUNCTION);
+keywords.insert(String::from("let"), LET);
+keywords.insert(String::from("true"), TRUE);
+keywords.insert(String::from("false"), FALSE);
+keywords.insert(String::from("return"), RETURN);
+keywords.insert(String::from("returns"), RETURNS);
+keywords.insert(String::from("key"), KEY);
+keywords.insert(String::from("lock"), LOCK);
