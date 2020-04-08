@@ -53,8 +53,10 @@ struct Token
     Literal : String,
 }
 
+//Initializes the hasmap we will use to map our keywords to their values
 let mut keywords = HashMap::new();
 
+//Adds all of our keywords to our hashmap
 keywords.insert(String::from("fn"), FUNCTION);
 keywords.insert(String::from("let"), LET);
 keywords.insert(String::from("true"), TRUE);
