@@ -2,9 +2,9 @@ package parser
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/lexer"
-	"monkey/token"
+	"../ast"
+	"../lexer"
+	"../token"
 	"strconv" //For when we need to obtain the actual int value of numbers inputted in source code
 )
 

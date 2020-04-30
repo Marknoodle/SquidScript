@@ -4,7 +4,7 @@ package ast
 
 import (
 	"bytes"
-	"monkey/token"
+	"../token"
 	"strings"
 )
 
