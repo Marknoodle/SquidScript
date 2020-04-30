@@ -2,6 +2,14 @@
 // We chose string instead of some complex type because it is simple
 struct TokenType(String);
 
+//Now we define the a structure for the tokens themselves
+struct Token 
+{
+    Type : TokenType,
+    Literal : String,
+}
+
+
 //Now we define the values for all of our tokens
 //Special Characters:
 const ILLEGAL: String = "ILLEGAL";
@@ -46,22 +54,17 @@ const RETURNS: String = "RETURNS";
 const KEY: String = "KEY";
 const LOCK: String = "LOCK";
 
-//Now we define the a structure for the tokens themselves
-struct Token 
-{
-    Type : TokenType,
-    Literal : String,
-}
 
-//Initializes the hasmap we will use to map our keywords to their values
-let mut keywords = HashMap::new();
+// //Initializes the hasmap we will use to map our keywords to their values
+// let mut keywords = HashMap::new();
 
-//Adds all of our keywords to our hashmap
-keywords.insert(String::from("fn"), FUNCTION);
-keywords.insert(String::from("let"), LET);
-keywords.insert(String::from("true"), TRUE);
-keywords.insert(String::from("false"), FALSE);
-keywords.insert(String::from("return"), RETURN);
-keywords.insert(String::from("returns"), RETURNS);
-keywords.insert(String::from("key"), KEY);
-keywords.insert(String::from("lock"), LOCK);
+// //Adds all of our keywords to our hashmap
+// keywords.insert(String::from("fn"), FUNCTION);
+// keywords.insert(String::from("let"), LET);
+// keywords.insert(String::from("true"), TRUE);
+// keywords.insert(String::from("false"), FALSE);
+// keywords.insert(String::from("return"), RETURN);
+// keywords.insert(String::from("returns"), RETURNS);
+// keywords.insert(String::from("key"), KEY);
+// keywords.insert(String::from("lock"), LOCK);
+

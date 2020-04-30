@@ -12,7 +12,7 @@ const (//these are our token types
 	INT   = "INT"   // 1343456
 
 	// Operators
-	ASSIGN   = "="
+	ASSIGN   = ":"
 	PLUS     = "+"
 	MINUS    = "-"
 	BANG     = "!"
@@ -22,7 +22,7 @@ const (//these are our token types
 	LT = "<"
 	GT = ">"
 
-	EQ     = "=="
+	EQ     = "="
 	NOT_EQ = "!="
 
 	// Delimiters
@@ -50,7 +50,7 @@ type Token struct {
 }
 
 var keywords = map[string]TokenType{//this is a hashmap where inputted text may match a keyword, thus requiring the token thereof to have the appropriate keyword token type
-	"fn":     FUNCTION,
+	"func":   FUNCTION,
 	"let":    LET,
 	"true":   TRUE,
 	"false":  FALSE,
