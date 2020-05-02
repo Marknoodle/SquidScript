@@ -2,10 +2,11 @@ package parser
 
 import (
 	"fmt"
-	"monkey/ast"
-	"monkey/lexer"
-	"monkey/token"
 	"strconv" //For when we need to obtain the actual int value of numbers inputted in source code
+
+	"../ast"
+	"../lexer"
+	"../token"
 )
 
 const ( //these constants are precedence labels that make the hierarchy of expression parsing order

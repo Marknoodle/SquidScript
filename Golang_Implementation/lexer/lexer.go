@@ -2,7 +2,7 @@
 
 package lexer
 
-import "monkey/token"
+import "../token"
 
 //This is what is constructed; the main template/structure of the lexer
 type Lexer struct {

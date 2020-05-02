@@ -4,7 +4,8 @@ package ast
 
 import (
 	"bytes"
-	"monkey/token"
+
+	"../token"
 )
 
 // The base Node interface
