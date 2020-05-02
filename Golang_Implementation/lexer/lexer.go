@@ -2,7 +2,7 @@
 
 package lexer
 
-import "../token"
+import "monkey/token"
 
 //This is what is constructed; the main template/structure of the lexer
 type Lexer struct {
@@ -31,14 +31,14 @@ func (l *Lexer) NextToken() token.Token {
 
 	switch l.ch { //switch statement that identifies the current character in l and then tokenizes the character based on what it is and what char's surround it
 	case '=':
-		ch := l.ch
-		l.readChar()
-		literal := string(ch) + string(l.ch)
-		tok = token.Token{Type: token.EQ, Literal: literal}
-	case ':':
-		if (l.peekChar() == '=') {
-			tok = newToken(token.ASSIGN, l.ch)	
-		}	
+		if l.peekChar() == '=' { //if the next character is a second =, meaning that the two == make a boolean operator
+			ch := l.ch
+			l.readChar()
+			literal := string(ch) + string(l.ch)
+			tok = token.Token{Type: token.EQ, Literal: literal}
+		} else { //the next character is not another = and therefore l.ch is an assignment = and not a boolean ==
+			tok = newToken(token.ASSIGN, l.ch)
+		}
 	case '+':
 		tok = newToken(token.PLUS, l.ch)
 	case '-':

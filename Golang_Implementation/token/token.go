@@ -1,9 +1,9 @@
-//OVERVIEW: Tokenizer gives value to certain words and characters, defines keywords, operators, special characters, etc. 
+//OVERVIEW: Tokenizer gives value to certain words and characters, defines keywords, operators, special characters, etc.
 package token
 
 type TokenType string
 
-const (//these are our token types
+const ( //these are our token types
 	ILLEGAL = "ILLEGAL"
 	EOF     = "EOF"
 
@@ -12,7 +12,7 @@ const (//these are our token types
 	INT   = "INT"   // 1343456
 
 	// Operators
-	ASSIGN   = ":"
+	ASSIGN   = "="
 	PLUS     = "+"
 	MINUS    = "-"
 	BANG     = "!"
@@ -22,7 +22,7 @@ const (//these are our token types
 	LT = "<"
 	GT = ">"
 
-	EQ     = "="
+	EQ     = "=="
 	NOT_EQ = "!="
 
 	// Delimiters
@@ -35,13 +35,12 @@ const (//these are our token types
 	RBRACE = "}"
 
 	// Keywords
-	FUNCTION = "FUNCTION"
-	LET      = "LET"
-	TRUE     = "TRUE"
-	FALSE    = "FALSE"
-	IF       = "IF"
-	ELSE     = "ELSE"
-	RETURN   = "RETURN"
+	LET    = "LET"
+	TRUE   = "TRUE"
+	FALSE  = "FALSE"
+	IF     = "IF"
+	ELSE   = "ELSE"
+	RETURN = "RETURN"
 )
 
 type Token struct {
@@ -49,8 +48,7 @@ type Token struct {
 	Literal string
 }
 
-var keywords = map[string]TokenType{//this is a hashmap where inputted text may match a keyword, thus requiring the token thereof to have the appropriate keyword token type
-	"func":   FUNCTION,
+var keywords = map[string]TokenType{ //this is a hashmap where inputted text may match a keyword, thus requiring the token thereof to have the appropriate keyword token type
 	"let":    LET,
 	"true":   TRUE,
 	"false":  FALSE,
@@ -60,11 +58,11 @@ var keywords = map[string]TokenType{//this is a hashmap where inputted text may 
 }
 
 //REQUIRES: a string input (the string literal of the identifier we are trying to tokenize)
-//MODIFIES: 
+//MODIFIES:
 //EFFECTS: returns token type of passed in identifier (either a keyword token type or IDENT)
 func LookupIdent(ident string) TokenType {
-	if tok, ok := keywords[ident]; ok {//does the input match a keyword in our hashmap (represented by the bool ok). If so, tok holds the appropriate keyword token type we wish to return
-		return tok//returns tok, which has the tokenized value of the input, and ok is true
+	if tok, ok := keywords[ident]; ok { //does the input match a keyword in our hashmap (represented by the bool ok). If so, tok holds the appropriate keyword token type we wish to return
+		return tok //returns tok, which has the tokenized value of the input, and ok is true
 	}
 	return IDENT //returns TokenType IDENT, since ok evaluated as false because passed in input does not match a keyword in our hashmap
 }
